@@ -2,6 +2,10 @@
 
 FeatureFoundry is a feature-store operations console for a customer-churn use case. It makes feature freshness, data-quality checks, feature definitions, and model dependencies visible before stale or invalid values affect production serving.
 
+## Live demo
+
+https://featurefoundry-three.vercel.app
+
 ## Architecture
 
 ```text

@@ -1,0 +1,11 @@
+.button:disabled { opacity: .65; cursor: wait; }
+.modal-backdrop { z-index: 5; }
+.register-modal form { margin-top: 20px; }
+.register-modal label { display: block; color: #58657a; font-size: 11px; font-weight: 700; margin: 13px 0; }
+.register-modal input, .register-modal textarea { display: block; width: 100%; margin-top: 6px; }
+.register-modal textarea { border: 1px solid #dce2ec; border-radius: 6px; padding: 9px 12px; font: 12px Manrope; min-height: 74px; resize: vertical; }
+.form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.form-actions { display: flex; justify-content: flex-end; gap: 9px; margin-top: 20px; }
+.secondary { border: 1px solid #dce2ec; background: white; color: #58657a; border-radius: 7px; padding: 10px 15px; font: 700 12px Manrope; cursor: pointer; }
+.form-error { color: #b33d3d !important; background: #fff0f0; padding: 9px; border-radius: 6px; font-size: 12px !important; }
+@media (max-width: 620px) { .form-grid { grid-template-columns: 1fr; } }
